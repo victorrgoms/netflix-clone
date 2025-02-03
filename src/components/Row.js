@@ -43,7 +43,7 @@ function Row({ title, path }) {
               <div className="movie-card" key={movie.id}>
                 <img 
                   className="movie-banner"
-                  src={`${imageHost}${movie.backdrop_path}`} 
+                  src={`${imageHost}${movie.poster_path}`} 
                   alt={movie.name}
                 />
               </div>    

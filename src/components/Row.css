@@ -42,18 +42,18 @@
 
 .scroll-right {
     right: 10px;
-    height: 135px;
+    height: 210px;
 }
 
 .scroll-left {
     left: 10px;
-    height: 135px;
+    height: 210px;
 }
 
 .movie-card {
     object-fit: contain;
     width: 100%;
-    max-width: 240px;
+    max-width: 140px;
     margin-right: 5px;
     border-radius: 2px;
     overflow: hidden;
@@ -91,10 +91,10 @@
 
 @media (max-width: 768px) {
     .movie-card {
-        max-width: 180px;
+        max-width: 100px;
     }
 
     .movie-card-large {
-        max-width: 220px;
+        max-width: 100px;
     }
 }
